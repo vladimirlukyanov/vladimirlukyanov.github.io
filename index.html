@@ -1,1 +1,83 @@
-<h1>test</h1>
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- SEO
+	================================================== -->
+
+	<title>Vladimir Lukyanov Github page</title>
+
+
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+
+	<meta name="viewport" content="width=device-width"/>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+	<!-- STYLESHEET DYNAMICALLY GENERATED
+	================================================== -->
+
+	<link rel="stylesheet" type="text/css" href="../assets/css/girls_core.css"/>
+	<link rel="stylesheet" type="text/css" href="./_css/app.css"/>
+
+</head>
+<body>
+
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+	your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to
+	improve your experience.</p>
+<![endif]-->
+
+<div class="row">
+
+	<div class="sixteen columns">
+
+
+
+	</div>
+
+</div>
+
+
+<!-- JAVASCRIPT
+================================================== -->
+<!-- Used Google js recommendation to increase page loading speed -->
+
+<script type="text/javascript">
+	var toLoad = {
+		'js': {
+			'xyi': {
+				url: '../assets/js/girls_core.js',
+				cache: true,
+				dependency: ['modernizr'],
+				callback: function () {
+					console.log('123');
+				}
+			},
+			'xyi2': {
+				url: '../assets/js/girls_core.js',
+				cache: true,
+				dependency: ['xyi'],
+				callback: function () {
+					console.log('123');
+				}
+			}
+		},
+		'css': {
+			'girls_core': ['../assets/css/girls_core.css', 'cache'],
+			'app': ['./_css/app.css', 'cache']
+		},
+		'callback': function () {
+
+		}
+	}
+</script>
+
+<script defer async type="text/javascript" src="../assets/js/girls_loader.js"></script>
+<script defer async type="text/javascript" src="../assets/js/girls_core.js"></script>
+
+
+</body>
+</html>
