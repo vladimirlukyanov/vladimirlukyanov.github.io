@@ -18,66 +18,30 @@
 	<!-- STYLESHEET DYNAMICALLY GENERATED
 	================================================== -->
 
-	<link rel="stylesheet" type="text/css" href="../assets/css/girls_core.css"/>
-	<link rel="stylesheet" type="text/css" href="./_css/app.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/css/girls_core.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/css/custom.css"/>
 
 </head>
 <body>
 
-<!--[if lt IE 7]>
-<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-	your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to
-	improve your experience.</p>
-<![endif]-->
-
-<div class="row">
-
-	<div class="sixteen columns">
-
-
-
+<div id="container">
+	<div id="itemlist">
+		<div id="green"></div>
+		<div id="red"></div>
+		<div id="blue"></div>
+		<div id="purple"></div>
 	</div>
 
+	<div id="itemdescription">
+		<span data-for="green">IMG green</span>
+		<span data-for="red">IMG red</span>
+		<span data-for="blue">IMG blue</span>
+		<span data-for="purple">IMG purple</span>
+	</div>
 </div>
 
-
-<!-- JAVASCRIPT
-================================================== -->
-<!-- Used Google js recommendation to increase page loading speed -->
-
-<script type="text/javascript">
-	var toLoad = {
-		'js': {
-			'xyi': {
-				url: '../assets/js/girls_core.js',
-				cache: true,
-				dependency: ['modernizr'],
-				callback: function () {
-					console.log('123');
-				}
-			},
-			'xyi2': {
-				url: '../assets/js/girls_core.js',
-				cache: true,
-				dependency: ['xyi'],
-				callback: function () {
-					console.log('123');
-				}
-			}
-		},
-		'css': {
-			'girls_core': ['../assets/css/girls_core.css', 'cache'],
-			'app': ['./_css/app.css', 'cache']
-		},
-		'callback': function () {
-
-		}
-	}
-</script>
-
-<script defer async type="text/javascript" src="../assets/js/girls_loader.js"></script>
-<script defer async type="text/javascript" src="../assets/js/girls_core.js"></script>
-
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/js/custom.js"></script>
 
 </body>
 </html>
