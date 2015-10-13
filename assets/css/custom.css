@@ -37,7 +37,7 @@ body {
     margin: 90px 0;
     transform: translate(-50%, 0);
     box-shadow: 0 10px 0 0 #499239 inset;
-    background-color: #fefffa;
+    background-color: rgba(254, 255, 250, 0.7);
     max-width: 450px;
     padding: 30px;
 }
@@ -166,6 +166,11 @@ ul li input[type=checkbox]:checked ~ i:before {
 
 ul li input[type=checkbox]:checked ~ i:after {
     transform: translate(-2px, 0) rotate(-45deg);
+}
+
+.body input[type=checkbox],
+.body input[type=radio] {
+    background: none;
 }
 
 @keyframes flipdown {
