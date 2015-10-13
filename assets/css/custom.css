@@ -37,7 +37,7 @@ body {
     margin: 90px 0;
     transform: translate(-50%, 0);
     box-shadow: 0 10px 0 0 #499239 inset;
-    background-color: rgba(254, 255, 250, 0.88);
+    background-color: rgba(254, 255, 250, 0.92);
     max-width: 450px;
     padding: 30px;
 }
@@ -101,7 +101,7 @@ ul li {
     margin: 0;
     padding-bottom: 4px;
     padding-top: 18px;
-    border-top: 1px solid #499239;
+    border-top: 1px solid rgba(73, 146, 57, 0.51);
 }
 
 ul li:nth-of-type(1) {
