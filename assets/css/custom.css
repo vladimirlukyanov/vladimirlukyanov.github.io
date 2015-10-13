@@ -37,7 +37,7 @@ body {
     margin: 90px 0;
     transform: translate(-50%, 0);
     box-shadow: 0 10px 0 0 #499239 inset;
-    background-color: rgba(254, 255, 250, 0.7);
+    background-color: rgba(254, 255, 250, 0.88);
     max-width: 450px;
     padding: 30px;
 }
@@ -69,7 +69,6 @@ h2 {
     font-weight: 300;
     letter-spacing: 1px;
     display: block;
-    background-color: #fefffa;
     margin: 0;
     cursor: pointer;
     color: #499239;
