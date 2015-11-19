@@ -1,2 +1,2 @@
 # vladimirlukyanov.github.io
-playground
+Redirect to CV page
